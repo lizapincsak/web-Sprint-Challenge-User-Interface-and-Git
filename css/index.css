@@ -169,42 +169,58 @@ nav a{
 .middle-content .boxes .box10{
     background-color: dodgerblue;
 }
-
-.about{
-    padding: 2%;
-    border-bottom: 1px dotted black;
-    margin: 4%;
-    
-}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
-    word-wrap: break-word;
     justify-content: space-around;
-    flex-wrap: wrap;
-
 }
 
 .bottom-content .text-container {
-    height: 30vh;
     padding-right: 4%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
-    display: flex;
-    width: 32%;
-    margin: 2%;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: justify;
-
 }
 
+.about{
+    padding: 2%;
+    border-bottom: 1px dotted black;
+    margin: 4%;   
+}
+.middle{
+    margin: 0;
+    padding: 10px;
+    word-wrap: break-word;
+}
+.themessymiddle{
+   height: 50%;
+   width: 50%;
+   display: flex;
+   justify-content: space-around;
+}
+.image{
+    height: 45%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img{
+    height: 20%;
+    margin: 10px;
+    padding: 4% 0;
+}
+.image p{
+    border-bottom: 1px dotted black;
+    width: 100%;
+}
+
+.worktogether{
+    padding: 2%;
+    margin: 4%;  
+}
 footer {
     width: 100%;
     background: black;
