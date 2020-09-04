@@ -169,18 +169,40 @@ nav a{
 .middle-content .boxes .box10{
     background-color: dodgerblue;
 }
+
+.about{
+    padding: 2%;
+    border-bottom: 1px dotted black;
+    margin: 4%;
+    
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
+    word-wrap: break-word;
     justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
 .bottom-content .text-container {
+    height: 30vh;
     padding-right: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+    display: flex;
+    width: 32%;
+    margin: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+
 }
 
 footer {
