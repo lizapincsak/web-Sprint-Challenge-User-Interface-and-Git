@@ -70,7 +70,18 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+}
+nav a{
+    display
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
