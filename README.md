@@ -1,3 +1,4 @@
+
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
@@ -112,3 +113,62 @@ After finishing your required elements, you can push your work further. These go
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+
+
+.about{
+    padding: 2%;
+    border-bottom: 1px dotted black;
+    margin: 4%;
+    
+}
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    word-wrap: break-word;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.bottom-content .text-container {
+    height: 30vh;
+    padding-right: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+    display: flex;
+    width: 32%;
+    margin: 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}.img{
+    height: 20%;
+    margin: 10px;
+    padding: 4% 0;
+}
