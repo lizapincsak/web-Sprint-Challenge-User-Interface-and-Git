@@ -34,13 +34,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is a way to give meaning to the content that you want to display on the page. You use HTML to communicate with CSS, which is the design portion of the webpage. HTML is the structure/backbone of the hosue, and CSS is the interior and exterior design of the house. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Two big difference between display: block and display: inline is:
+    1. With display: inline, the width and height are not respected. The element will end up on top of another element. The padding will still be present but may over lap. But, they will sit side-by-side. 
+    2. With display:block, width, height and padding are respected. However, the elements will not align next to each other. 
+
+    The main difference is that display:block will have width, height and padding respect, but the elements will not be next to each other. While, display:inline will not have width and height respected, but the elements will be next to each other. 
 
 3. What are the 4 areas of the box model?
 
+The four areas of the box model are: 
+    1. Content edges
+    2. Padding edges
+    3. Border edges
+    4. Margin edges
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Aligh-items: center uses the cross axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because multiple people can work on the same project at the same time. When you branch the project, you can work on your own portion of the project, and when you add what you've created the branches will merge back together. Additionally, someone can work on an aspect of a branch that you're working on by creating another branch. This entire process of brancching and growing back together can continuously happen until the project is complete. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
