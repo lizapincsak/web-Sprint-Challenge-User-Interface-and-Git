@@ -70,10 +70,34 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0; 
 
+}
+nav .img{ 
+    max-width: 100%;
+}
+
+nav a{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 22%;
+    text-align: center;
+}
+.links{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 4% 0;
+}
 .top-content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +136,39 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +183,56 @@ p {
     padding-right: 0;
 }
 
+.about{
+    padding: 2%;
+    border-bottom: 1px dashed black;
+    margin: 2%;   
+}
+.middle{
+    margin: 0 auto;
+    padding: 2%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    height: 80vh;
+    width: 100%;
+}
+.themessymiddle{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+}
+.themessymiddle div{
+    height: 40%;
+    width: 40%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border-bottom: 1px dashed black;
+    
+}
+
+.image p{
+    width: 100%;
+    padding: 2%;
+
+}
+
+img{ 
+    width: 100%;
+    padding: 2%;
+}
+
+button{
+    padding: 5px 2%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.worktogether{
+    padding: 30px;
+    margin: 4%;  
+}
 footer {
     width: 100%;
     background: black;
