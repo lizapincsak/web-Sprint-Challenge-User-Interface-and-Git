@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px grey solid;
 }
 
 html, body {
@@ -65,12 +66,41 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+/*header*/
 .container {
-    width: 800px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-bottom: 20px;  
+    
+}
+.container img{
+    margin: 0 2% 20px;
+}
+header nav {
+    margin: 0 2% 20px;
+    width: 77%;
+    height: 10%;
+
 }
 
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 13%;
+}
+
+.hero-image{
+    height: 30vh;
+    width: 100%
+}
+
+
+/*middle info*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +115,8 @@ p {
     padding-bottom: 20px;  
 }
 
+
+/*boxes*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -126,6 +158,38 @@ p {
     padding-right: 0;
 }
 
+.middle-content .boxes .box1{
+    background-color: teal;
+}
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
+
+/*footer*/
 footer {
     width: 100%;
     background: black;

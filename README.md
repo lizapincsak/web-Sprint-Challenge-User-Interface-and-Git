@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is to provide meaning to the browser on how to interpret your code. If you do not use semantic HTML, the screen reader will only see boxes and not be able to interpret the content. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display: inline are elements that take up only as much space as needed. On the other hand, display: block elements take up an entire row. 
+
+Additionally, display:inline elements are nested inside of block elements, while display: block elements encompass inline elements. 
+
+Most importantly, block elements accept a width, which is how we can use them in our layout. 
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the box model are:
+
+1. Content edge
+2. Padding edge
+3. Border edge
+4. Margin edge
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items: center is aligned along the the perpendicular axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because gitflow allows people to work on the same part of the project at the same time, but on their own. Then once this part is complete the repo can be pushed back to the original branch. The team can go over the code and decide whether or not to merge it for everyone else to use it. It really helps with multiple people working on the same project to complete it in a quick fashion and share and make changes easily. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -69,8 +88,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+<!-- * [ ] Build the HTML and CSS to create the missing navigation and header. -->
+<!-- * [ ] Link the `About` navigation item to the [about.html](about.html) page -->
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
