@@ -92,7 +92,7 @@ Your finished project must include all of the following requirements:
 <!-- * [ ] Link the `About` navigation item to the [about.html](about.html) page -->
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
-
+<!-- 
 * [ ] box1: `teal`
 * [ ] box2: `gold`
 * [ ] box3: `cadetblue`
@@ -102,7 +102,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box7: `darkorchid`
 * [ ] box8: `hotpink`
 * [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [ ] box10: `dodgerblue` -->
 
 ### About Page
 
@@ -110,7 +110,7 @@ You will also notice there are 10 boxes on the home page that need background co
 
 * [ ] Copy and paste your home page navigation and header into the about page
 * [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
+<!-- * [ ] Link the `Home` navigation item back to the `index.html` page. -->
 * [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
