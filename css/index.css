@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+
+
+/*general styles*/
 * {
     box-sizing: border-box;
     border: 1px grey solid;
@@ -66,6 +69,9 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+
+
 /*header*/
 .container {
     width: 100%;
@@ -75,8 +81,7 @@ p {
     align-items: flex-end;
     flex-wrap: wrap;
     align-content: space-around;
-    padding-bottom: 20px;  
-    
+    padding-bottom: 20px;    
 }
 .container img{
     margin: 0 2% 20px;
@@ -85,7 +90,6 @@ header nav {
     margin: 0 2% 20px;
     width: 77%;
     height: 10%;
-
 }
 
 header nav a{
@@ -98,6 +102,7 @@ header nav a{
     height: 30vh;
     width: 100%
 }
+
 
 
 /*middle info*/
@@ -114,6 +119,7 @@ header nav a{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 
 
 /*boxes*/
@@ -188,6 +194,7 @@ header nav a{
 .middle-content .boxes .box10{
     background-color: dodgerblue;
 }
+
 
 /*footer*/
 footer {
